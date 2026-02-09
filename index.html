@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Join our 3-day Google Ads Workshop to master audit and optimization strategies that drive real results.">
+    <title>Google Ads Audit & Optimization – 3 Day Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Supabase Connection Warning (hidden when connected) -->
+    <div id="supabase-warning" class="warning-banner" style="display: none;">
+        ⚠️ Supabase not connected yet. Please configure your credentials in app.js
+    </div>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">S2R</div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#about">What You'll Learn</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#who-should-attend">Who Should Attend</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#enroll" class="cta-btn">Enroll Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-badge">⚡ Workshop 2026</span>
+            <h1 class="hero-headline">
+                Master Google Ads Audit &<span class="gradient-text">Optimization</span>
+            </h1>
+            <p class="hero-subheadline">
+                Transform your Google Ads campaigns from guesswork to precision. <span class="gradient-text">AI-Driven
+                    Strategies</span> that turn clicks into customers and budgets into profit.
+            </p>
+
+            <!-- Marketing Tagline -->
+            <p class="hero-tagline">
+                Join the elite marketers who stopped wasting ad spend and started scaling profitably with AI-powered
+                optimization systems.
+            </p>
+
+            <a href="#enroll" class="hero-cta">Enroll Now – Limited Seats →</a>
+        </div>
+    </section>
+
+    <!-- What You'll Learn -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What You'll <span class="gradient-text">Learn</span></h2>
+                <p class="section-subtitle">Master the complete Google Ads audit and optimization framework</p>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <h3>Google Ads in the AI Era (2026)</h3>
+                    <p>Understand how AI has fundamentally changed Google Ads and what it means for your campaigns.</p>
+                </div>
+                <div class="card">
+                    <h3>The 2026 Google Ads Audit Framework</h3>
+                    <p>Master the complete system for auditing modern Google Ads accounts with AI-driven campaigns.</p>
+                </div>
+                <div class="card">
+                    <h3>Search Campaign Audit (Intent First)</h3>
+                    <p>Deep dive into search campaign analysis with focus on intent matching and query optimization.</p>
+                </div>
+
+                <!-- Hidden cards initially -->
+                <div class="card hidden-card">
+                    <h3>Performance Max Campaign Audit</h3>
+                    <p>Crack the black box of Performance Max and audit it like a pro to maximize ROAS.</p>
+                </div>
+                <div class="card hidden-card">
+                    <h3>Conversion & Tracking Audit</h3>
+                    <p>Ensure your tracking is bulletproof and your conversion data is accurate and actionable.</p>
+                </div>
+                <div class="card hidden-card">
+                    <h3>Optimization Order & Risk Control</h3>
+                    <p>Learn the exact sequence to optimize campaigns while minimizing risk and maintaining performance.
+                    </p>
+                </div>
+                <div class="card hidden-card">
+                    <h3>AI + Human Control Framework</h3>
+                    <p>Balance AI automation with human strategy to maintain control while leveraging machine learning.
+                    </p>
+                </div>
+                <div class="card hidden-card">
+                    <h3>Audit → Action Plan System</h3>
+                    <p>Transform audit findings into a clear, prioritized action plan that drives real results.</p>
+                </div>
+            </div>
+
+            <!-- Toggle Button -->
+            <div class="toggle-section">
+                <button id="toggle-learn-btn" class="secondary-btn" onclick="toggleLearnCards()">
+                    See All Modules
+                </button>
+                <a href="#enroll" class="cta-button hidden-cta" id="enroll-cta-learn" style="display: none;">
+                    Enroll Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3-Day Agenda -->
+    <section class="section" id="agenda">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">3-Day Workshop <span class="gradient-text">Agenda</span></h2>
+                <p class="section-subtitle">Intensive hands-on training across three focused days</p>
+            </div>
+
+            <div class="agenda-grid">
+                <div class="agenda-card">
+                    <h3>Day 1</h3>
+                    <h3>Audit Foundation & AI Reality</h3>
+                    <ul>
+                        <li><strong>Module 1:</strong> Google Ads in the AI Era (2026)</li>
+                        <li><strong>Module 2:</strong> The 2026 Google Ads Audit Framework</li>
+                        <li><strong>Module 3:</strong> Account Reading & Data Truth</li>
+                    </ul>
+                    <p class="agenda-summary">Understand the AI landscape and build a solid audit foundation</p>
+                </div>
+
+                <div class="agenda-card">
+                    <span class="agenda-day">Day 2</span>
+                    <h3>Real Audit Execution</h3>
+                    <ul>
+                        <li><strong>Module 4:</strong> Search Campaign Audit (Intent First)</li>
+                        <li><strong>Module 5:</strong> Performance Max Audit (Critical Module)</li>
+                        <li><strong>Module 6:</strong> Conversion & Tracking Audit</li>
+                    </ul>
+                    <p class="agenda-summary">Execute hands-on audits of Search, PMax, and conversion systems</p>
+                </div>
+
+                <div class="agenda-card">
+                    <span class="agenda-day">Day 3</span>
+                    <h3>Optimization System & Control</h3>
+                    <ul>
+                        <li><strong>Module 7:</strong> Optimization Order & Risk Control</li>
+                        <li><strong>Module 8:</strong> AI + Human Control Framework</li>
+                        <li><strong>Module 9:</strong> Audit → Action Plan System</li>
+                    </ul>
+                    <p class="agenda-summary">Build your optimization system and create actionable plans</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Should Attend -->
+    <section class="section" id="who-should-attend">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Who Should <span class="gradient-text">Attend?</span></h2>
+                <p class="section-subtitle">This workshop is perfect for anyone managing Google Ads campaigns</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Business Owners</h3>
+                    <p>Understand exactly where your Google Ads budget is going and how to optimize for maximum ROI in
+                        the AI era.</p>
+                </div>
+                <div class="card">
+                    <h3>Marketing Managers</h3>
+                    <p>Master the 2026 audit framework and become the Google Ads expert your team needs.</p>
+                </div>
+                <div class="card">
+                    <h3>Freelancers & Consultants</h3>
+                    <p>Offer professional Google Ads audits and optimization services with a proven, systematic
+                        approach.</p>
+                </div>
+                <div class="card">
+                    <h3>Agency Teams</h3>
+                    <p>Standardize your audit process and deliver consistent, high-quality results across all client
+                        accounts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>Do I need prior Google Ads experience?</h3>
+                    <p>Basic familiarity with Google Ads is helpful but not required. We'll cover fundamentals on Day 1.
+                    </p>
+                </div>
+                <div class="faq-item">
+                    <h3>Will I get recordings?</h3>
+                    <p>Yes! All sessions are recorded and you'll have lifetime access to the materials.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What time are the sessions?</h3>
+                    <p>Sessions run from 10 AM to 2 PM (your local timezone). We'll confirm exact times after
+                        enrollment.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is there a money-back guarantee?</h3>
+                    <p>Absolutely. If you're not satisfied after Day 1, we'll refund 100% of your investment.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Will I get templates and resources?</h3>
+                    <p>Yes! You'll receive audit checklists, optimization templates, and swipe files you can use
+                        immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enrollment Form -->
+    <section id="enroll" class="section enroll-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Enroll Now – <span class="gradient-text">Limited Seats</span></h2>
+                <p class="form-intro">Secure your spot in the next workshop. We keep groups small for maximum
+                    interaction.</p>
+            </div>
+
+            <form id="enrollment-form" class="enrollment-form">
+                <!-- Honeypot field (hidden anti-spam) -->
+                <input type="text" name="website" id="website" class="honeypot" tabindex="-1" autocomplete="off">
+
+                <div class="form-group">
+                    <label for="full_name">Full Name *</label>
+                    <input type="text" id="full_name" name="full_name" required placeholder="Enter your full name">
+                    <span class="error-message" id="error-full_name"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    <span class="error-message" id="error-email"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="whatsapp_number">WhatsApp Number *</label>
+                    <input type="tel" id="whatsapp_number" name="whatsapp_number" required
+                        placeholder="+880 1XXX-XXXXXX">
+                    <span class="error-message" id="error-whatsapp_number"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="enrollment_package">Select Enrollment Package *</label>
+                    <select id="enrollment_package" name="enrollment_package" required>
+                        <option value="">Choose your package</option>
+                        <option value="3_days_workshop" data-price="1500">3 Days Workshop - BDT 1,500/=</option>
+                        <option value="3_days_with_support" data-price="2000">3 Days Workshop + 6 Month Support - BDT
+                            2,000/=</option>
+                    </select>
+                    <span class="error-message" id="error-enrollment_package"></span>
+                    <small style="display: block; margin-top: 8px; color: var(--text-gray); font-size: 0.875rem;">
+                        💡 Get 6 months of post-workshop support for just BDT 500 more!
+                    </small>
+                </div>
+
+                <button type="submit" class="submit-button" id="submit-button">
+                    <span id="button-text">Proceed to Payment</span>
+                    <span id="button-loader" class="loader" style="display: none;"></span>
+                </button>
+
+                <p class="form-note">We respect your privacy. Your information will only be used for workshop
+                    communication.</p>
+            </form>
+
+            <!-- Success Message (hidden by default) -->
+            <div id="success-message" class="success-card" style="display: none;">
+                <div class="success-icon">✓</div>
+                <h3>Payment Confirmed! 🎉</h3>
+                <p>Thank you! We've received your payment information. We'll verify your payment and send you the
+                    workshop details within 24 hours.</p>
+                <p class="success-note">Check your email (and spam folder) for confirmation.</p>
+                <button onclick="resetForm()" class="secondary-button">Enroll Another Person</button>
+            </div>
+
+            <!-- Payment Popup Modal (hidden by default) -->
+            <div id="payment-modal" class="payment-modal" style="display: none;">
+                <div class="payment-modal-content">
+                    <button class="payment-close" onclick="closePaymentModal()">&times;</button>
+
+                    <h3 style="color: var(--primary-light); margin-bottom: 10px;">Complete Your Payment</h3>
+                    <p style="color: var(--text-gray); margin-bottom: 30px;" id="payment-package-info">
+                        Package: <span id="selected-package-name"></span><br>
+                        Amount: <span id="selected-package-price"
+                            style="color: var(--primary-light); font-weight: 700; font-size: 1.5rem;"></span>
+                    </p>
+
+                    <div class="payment-instructions">
+                        <h4 style="color: var(--text-white); margin-bottom: 15px;">📱 Payment Instructions</h4>
+                        <ol style="color: var(--text-gray); line-height: 1.8; padding-left: 20px;">
+                            <li>Open your bKash app</li>
+                            <li>Select "Payment"</li>
+                            <li>Enter merchant number: <strong
+                                    style="color: var(--primary-light); font-size: 1.1rem;">01718304674</strong></li>
+                            <li>Enter the amount shown above</li>
+                            <li>Complete the payment</li>
+                            <li>Enter your transaction ID below</li>
+                        </ol>
+                    </div>
+
+                    <form id="payment-form" class="payment-form">
+                        <div class="form-group">
+                            <label for="bkash_number">Your bKash Number (Payer) *</label>
+                            <input type="text" id="bkash_number" name="bkash_number" required
+                                placeholder="Enter your bKash number">
+                            <span class="error-message" id="error-bkash_number"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="transaction_id">Transaction ID *</label>
+                            <input type="text" id="transaction_id" name="transaction_id" required
+                                placeholder="Enter your bKash transaction ID">
+                            <span class="error-message" id="error-transaction_id"></span>
+                            <small
+                                style="display: block; margin-top: 8px; color: var(--text-gray); font-size: 0.875rem;">
+                                You'll receive this after completing the payment
+                            </small>
+                        </div>
+
+                        <button type="submit" class="submit-button" id="payment-submit-button">
+                            <span id="payment-button-text">Confirm Payment</span>
+                            <span id="payment-button-loader" class="loader" style="display: none;"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>Google Ads Audit & Optimization Workshop</h3>
+                <p style="color: var(--text-gray); margin-top: 12px;">Master AI-era audit frameworks and optimization
+                    systems.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">What You'll Learn</a></li>
+                    <li><a href="#agenda">3-Day Agenda</a></li>
+                    <li><a href="#who-should-attend">Who Should Attend</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="mailto:info@skilltorevenue.com">info@skilltorevenue.com</a></li>
+                    <li><a href="#enroll">Enroll Now</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Skill To Revenue. All rights reserved.</p>
+            <p>Questions? Contact
+                <a href="https://wa.me/8801723195826" target="_blank"
+                    style="color: var(--primary-light); font-weight: 600; text-decoration: none;">Sumon</a>,
+                <a href="https://wa.me/8801660032136" target="_blank"
+                    style="color: var(--primary-light); font-weight: 600; text-decoration: none;">Tanbhir</a>,
+                <a href="https://wa.me/8801639261780" target="_blank"
+                    style="color: var(--primary-light); font-weight: 600; text-decoration: none;">Nasiful</a>,
+                <a href="https://wa.me/8801747757439" target="_blank"
+                    style="color: var(--primary-light); font-weight: 600; text-decoration: none;">Asif</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
